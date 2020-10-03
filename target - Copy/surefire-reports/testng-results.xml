@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27271" started-at="2020-09-21T11:34:03Z" finished-at="2020-09-21T11:34:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27271" started-at="2020-09-21T11:34:03Z" finished-at="2020-09-21T11:34:31Z">
+      <class name="com.cleartrip.flightTestRunner.FlightSearchTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.cleartrip.flightTestRunner.FlightSearchTest@64d2d351]" name="beforeTest" is-config="true" duration-ms="7273" started-at="2020-09-21T11:34:03Z" finished-at="2020-09-21T11:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="flightSearchForm()[pri:0, instance:com.cleartrip.flightTestRunner.FlightSearchTest@64d2d351]" name="flightSearchForm" duration-ms="19429" started-at="2020-09-21T11:34:11Z" finished-at="2020-09-21T11:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchForm -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.cleartrip.flightTestRunner.FlightSearchTest@64d2d351]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-09-21T11:34:31Z" finished-at="2020-09-21T11:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.cleartrip.flightTestRunner.FlightSearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

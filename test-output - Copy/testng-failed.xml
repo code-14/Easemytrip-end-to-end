@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.easemytrip.pomrunner.LoginPageTestInvalid">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="LoginTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.easemytrip.pomrunner.LoginPageTestInvalid -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

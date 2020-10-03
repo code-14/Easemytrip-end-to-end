@@ -1,0 +1,112 @@
+browser=chrome
+url=https://www.easemytrip.com/
+implicit.wait=30
+excelPath=.\\src\\test\\resources\\files\\Data.xlsx
+#username=
+#password=
+sheetName=Sheet1
+
+#moduleName_ObjectName
+myAccount=//span[@id='spnMyAcc']
+register=//a[@class='btn_register RegInHome']
+input=//input[@id='txtEmail']
+registerButton=//div[@id='hid1']//div[@class='se-m']//input[@name='btn_Login']
+otpBox=//input[@id='otptxt']
+enterPass=//input[@id='pass']
+confirmPass=//input[@id='confirmpass']
+submitButton=//div[@id='hid1']//div[@class='se-m1']//input[@name='btn_Login']
+username=//input[@id='txtusername']
+errorOtp=//div[@id='errorotp']
+invalidOtp=//div[@id='otpmsg1InvOtp']
+errorPass=//div[@id='errorpass']
+invalidID=//div[@id='hid1']//div[@class='se-m']//div[8]
+
+#Hotel_search
+searchURL=https://www.easemytrip.com/hotels/
+citynames=ssg-title
+firstoption=span[class='ssg-subtitle']
+month=span[class='ui-datepicker-month']
+nextmonthbtn=span[class='ui-icon ui-icon-circle-triangle-e']
+date=ui-state-default
+guestdropdown=i[class=down_arw_htl]
+subadult=a[class='sub hoteladultclass']
+addadult=a[class='add hoteladultclass']
+addchild=a[class='add hotelchildclass']
+addroom=a[class='addroom']
+donebutton=a[class='addroom exitroom']
+searchhotelbtn=input[value='Search']
+excelpathSearchHotel=.\\src\\test\\resources\\files\\searchdetails.xlsx
+sheetSearchName=Sheet1
+xpathbookbtn=//div[@class='btnhcol']//a[@class='fill-btn'][contains(text(),'Book Now')]
+
+cityname=South Korea
+cinmonth=October
+cindate=2
+coutmonth=October
+coutdate=2
+adultno=3
+
+#Hotel_listing
+HotelListURL=https://hotels.easemytrip.com/newhotel/Hotel/HotelListing?e=202092219131&city=Goa,%20%20%20India&cin=02/10/2020&cOut=03/10/2020&Hotel=NA&Rooms=1&pax=2
+starrating=//span[@class='ng-binding ng-scope'][contains(text(),'5')]
+afterstar=//span[contains(text(),'Vivanta Panaji')]
+dropdownlist=drpHighList
+sortby=//option[contains(text(),'Price - Low to High')]
+afterdrop=//span[contains(text(),'Rootsvilla Hostel Goa')]
+easystay=Easy Stay
+aftereasystay=//span[contains(text(),'Dreams Palm')]
+listpagebookbtn=//div[1]//div[2]//a[1]//div[1]//div[2]//div[5]
+
+#Hotel_Description
+hoteldescURL=https://hotels.easemytrip.com/newhotel/Hotel/HotelDescription?e=202092219131&city=Goa,%20%20%20India&cin=02/10/2020&cOut=03/10/2020&Hotel=NA&Rooms=1&pax=2&key=15~INR~Goa~10-02-2020~10-03-2020~1~2_~~~EaseMyTrip~NA~NA~NA~IN&ecid=EMTHotel-163931&hid=109622
+showallamenities=Show All Amenities
+booknowbtn=//div[@class='btnhcol']//a[@class='fill-btn'][contains(text(),'Book Now')]
+
+#HotelTraveller_details
+travdetailsURL=https://hotels.easemytrip.com/newhotel/Travel/Traveller?searchid=202092310210
+excelpathtraveller=.\\src\\test\\resources\\files\\travellerdetails.xlsx
+sheetnametraveller=Sheet1
+travellertitle1=ddlGender
+title1=Miss
+travellertitle2=ddlGender2
+title2=Miss
+firstname=txtFirstName1
+lastname=txtLastName1
+firstname2=txtFirstName2
+lastname2= txtLastName2
+emailid=txtEmailId
+contactno=txtCPhone
+checkbox=//label[@class='ctr_cbox lh18']//span[@class='cmark_cbox']
+pay=//div[@class='coonpayment']
+paysuccess=//div[@class='totl-z']//div[@class='mk-pym'][contains(text(),'Make Payment')]
+
+excellogin=.\\src\\test\\resources\\files\\Login Data.xlsx
+
+sheetlogin=invalidfp
+
+#moduleName_ObjectName
+flight_from=//*[@id='FromTag']
+flight_to=//*[@id='ToTag']
+
+FN=5
+sheetNameE=Sheet1
+sheetNameM=Sheet2
+
+origin=Bangalore
+destination=Kolkata
+dday=29
+dmonth=NOV
+dyear=2020
+rday=2
+rmonth=DEC
+ryear=2020
+travelClass=Business
+tt=MR
+fname=Avinash
+lname=Jain
+email=avinashjain2800@gmail.com
+mobile=8218706349
+
+FN=4
+sheetName1=Sheet3
+sheetNameEnd=Sheet2

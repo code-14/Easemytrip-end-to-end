@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.easemytrip.utils.TestReport"></listener>
+</listeners>
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.easemytrip.pomrunner.RegisterTest"/>
+      <class name="com.easemytrip.pomrunner.LoginPageTest"/>
+      <class name="com.easemytrip.pomrunner.LoginPageTestInvalid"/>
+       <class name="com.easemytrip.pomrunner.TestRunner"/>
+       <class name="com.easemytrip.pomrunner.LoginRegistrationIntegration"/>
+       <class name="com.easemytrip.pomrunner.HotelDescPageRunner"/>
+        <class name="com.easemytrip.pomrunner.HotelListingPageRunner"/>
+        <class name="com.easemytrip.pomrunner.LoginPageTest"/>
+        <class name="com.easemytrip.pomrunner.HotelSearchingRunner"/>
+         <class name="com.easemytrip.pomrunner.HotelSearchingRunner1"/>
+         <class name="com.easemytrip.pomrunner.HotelTravDetailsPageRunner"/>
+         <class name="com.easemytrip.pomrunner.HotelTravDetailsPageRunner1"/>
+         <class name="com.easemytrip.pomrunner.HotelIntegrationTest"/>
+         <class name="com.easemytrip.pomrunner.FlightSearchTest"/>
+         <class name="com.easemytrip.pomrunner.FlightSearchTestOneWay"/>
+         
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

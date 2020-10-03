@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.easemytrip.utils.TestReport"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.easemytrip.pomrunner.FlightSearchTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="flightBookCompleteTest"/>
+        </methods>
+      </class> <!-- com.easemytrip.pomrunner.FlightSearchTest -->
+      <class name="com.easemytrip.pomrunner.LoginRegistrationIntegration">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="registerAndLoginTestValid"/>
+        </methods>
+      </class> <!-- com.easemytrip.pomrunner.LoginRegistrationIntegration -->
+      <class name="com.easemytrip.pomrunner.RegisterTest">
+        <methods>
+          <include name="registerTestInvalidPassword"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="registerTestInvalid"/>
+          <include name="registerTestValid" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.easemytrip.pomrunner.RegisterTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
